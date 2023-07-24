@@ -1,0 +1,23 @@
+.produtos-cartoes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 200px;
+}
+
+.lista {
+    color: rgb(49, 48, 48);
+}
+
+.produtos-cartoes ul li {
+    margin: 5px;
+}
+
+.produtos-cartoes ul button {
+    width: 110px;
+    margin: 8px;
+}
+
+

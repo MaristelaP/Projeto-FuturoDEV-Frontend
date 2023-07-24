@@ -1,0 +1,108 @@
+*{
+  margin: o;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.cadastro {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgCadastro {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCadastro img {
+  max-width: 90%;
+  height: 55%;
+}
+
+.formularioCadastro form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  height: 55%;
+}
+
+.formularioCadastro form img {
+  width: 170px;
+  height: 90px;
+  border-radius: 12px;
+}
+
+.formularioCadastro form span {
+  color: rgb(73, 71, 71);
+  margin-bottom: 23px;
+  font-size: 15px;
+  padding-top: 18px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  outline: none;
+}
+
+
+button {
+  background-color: rgb(89, 100, 176);
+  width: 250px;
+  height: 30px;
+  border-radius: 12px;
+  border: none;
+  color: rgb(242, 240, 238);
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: rgb(113, 128, 221);
+
+}
+
+.inputEmailContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.emailIcon {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: rgb(148, 145, 145);
+} 
+
+.inputSenhaContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.senhaIcon {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: rgb(148, 145, 145);
+}
+
+.inputNomeContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.nomeIcon {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: rgb(148, 145, 145);
+}
